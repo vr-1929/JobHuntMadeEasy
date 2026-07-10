@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Database (personal data)
+data/*.db
+
+# Compiled resumes (generated, personal)
+backend/resume/templates/*.pdf
+backend/resume/templates/failed/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor junk
+.DS_Store
+.vscode/
